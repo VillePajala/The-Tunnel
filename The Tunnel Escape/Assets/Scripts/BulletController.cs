@@ -27,7 +27,7 @@ public class BulletController : MonoBehaviour {
 	void Update () {
 		
         // If left mouse button is pressed
-        if (Input.GetButtonUp("Fire1"))
+        if (Input.GetButtonUp("Fire1") && PauseGame.GameIsPaused == false)
         {
             // sound of gunshot is played
             this.sounds[2].Play();
