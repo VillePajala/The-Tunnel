@@ -14,7 +14,7 @@ public class PauseGame : MonoBehaviour {
 
     void Start()
     {
-        this.character = GameObject.Find("Player");
+        this.character = GameObject.Find("Player2");
     }
 
 
@@ -39,7 +39,7 @@ public class PauseGame : MonoBehaviour {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
-        this.character.GetComponent<FirstPersonController>().enabled = true;
+        this.character.GetComponent<RigidbodyFirstPersonController>().enabled = true;
         Cursor.visible = false;
         
     }
@@ -49,7 +49,7 @@ public class PauseGame : MonoBehaviour {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
-        this.character.GetComponent<FirstPersonController>().enabled = false;
+        this.character.GetComponent<RigidbodyFirstPersonController>().enabled = false;
         Cursor.visible = true;
         
     }

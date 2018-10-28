@@ -16,6 +16,8 @@ MonoBehaviour:
   - {fileID: 114439826898089444}
   - {fileID: 114492578441440056}
   - {fileID: 114286271401437060}
+  - {fileID: 114213955252695688}
+  - {fileID: 114692994097146636}
 --- !u!114 &114084985450195588
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -62,6 +64,42 @@ MonoBehaviour:
   dirtIntensity:
     overrideState: 0
     value: 0
+--- !u!114 &114213955252695688
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f6f3f7c722b4544b97e3c75840aa33, type: 3}
+  m_Name: AutoExposure
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  filtering:
+    overrideState: 1
+    value: {x: 54.000015, y: 99}
+  minLuminance:
+    overrideState: 1
+    value: 0
+  maxLuminance:
+    overrideState: 1
+    value: 0
+  keyValue:
+    overrideState: 1
+    value: 1.5
+  eyeAdaptation:
+    overrideState: 1
+    value: 0
+  speedUp:
+    overrideState: 1
+    value: 2
+  speedDown:
+    overrideState: 1
+    value: 1
 --- !u!114 &114286271401437060
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -83,7 +121,7 @@ MonoBehaviour:
     defaultState: 1
   intensity:
     overrideState: 1
-    value: 0.329
+    value: 0.434
   fastMode:
     overrideState: 1
     value: 1
@@ -128,7 +166,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.43
+    value: 0.55
   color:
     overrideState: 1
     value: {r: 0, g: 0, b: 0, a: 1}
@@ -146,7 +184,7 @@ MonoBehaviour:
     value: -12
   thicknessModifier:
     overrideState: 1
-    value: 1
+    value: 10
   directLightingStrength:
     overrideState: 1
     value: 0
@@ -156,3 +194,46 @@ MonoBehaviour:
   quality:
     overrideState: 1
     value: 2
+--- !u!114 &114692994097146636
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40b924e2dad56384a8df2a1e111bb675, type: 3}
+  m_Name: Vignette
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  mode:
+    overrideState: 1
+    value: 0
+  color:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 1}
+  center:
+    overrideState: 1
+    value: {x: 0.5, y: 0.5}
+  intensity:
+    overrideState: 1
+    value: 0.471
+  smoothness:
+    overrideState: 1
+    value: 0.178
+  roundness:
+    overrideState: 1
+    value: 0.978
+  rounded:
+    overrideState: 1
+    value: 0
+  mask:
+    overrideState: 1
+    value: {fileID: 0}
+    defaultState: 1
+  opacity:
+    overrideState: 1
+    value: 1

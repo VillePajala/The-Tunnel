@@ -5,7 +5,7 @@ using UnityEngine;
 public class BulletController : MonoBehaviour {
 
     // Defining public gameobjects to drag from editor
-    public GameObject bullet = null;
+    // public GameObject bullet = null;
     public GameObject explosion = null;
 
     // Variable for adding force on impact
@@ -38,13 +38,13 @@ public class BulletController : MonoBehaviour {
             // Explosion destroyed after delay
             Destroy(exp, 5f);
             // Creating a new bullet from prefab
-            GameObject ammo = Instantiate(this.bullet, this.GetComponent<Transform>().position, Quaternion.identity);
+            // GameObject ammo = Instantiate(this.bullet, this.GetComponent<Transform>().position, Quaternion.identity);
             // Bullet is given a name
-            ammo.name = "killer";
+            // ammo.name = "killer";
             // Bullet is given a "shoting" force
-            ammo.GetComponent<Rigidbody>().AddForce(this.GetComponent<Transform>().forward * this.force);
+            // ammo.GetComponent<Rigidbody>().AddForce(this.GetComponent<Transform>().forward * this.force);
             // Bullet destroyed after delay
-            Destroy(ammo, 20f);
+            // Destroy(ammo, 20f);
         } // if
 
 
