@@ -48,7 +48,7 @@ public class GunScript : MonoBehaviour {
 
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
-            Debug.Log(hit.transform.name);
+            
 
             TargetScript target = hit.transform.GetComponent<TargetScript>();
             if(target != null)

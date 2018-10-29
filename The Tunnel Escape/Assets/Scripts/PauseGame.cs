@@ -58,7 +58,7 @@ public class PauseGame : MonoBehaviour {
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        this.character.GetComponent<FirstPersonController>().enabled = true;
+        this.character.GetComponent<RigidbodyFirstPersonController>().enabled = true;
         Cursor.visible = false;
     }
 
