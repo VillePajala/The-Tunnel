@@ -59,10 +59,11 @@ public class GunScript : MonoBehaviour {
             if(hit.rigidbody != null)
             {
                 hit.rigidbody.AddForce(-hit.normal * force);
+                // this.sounds[4].Play();
             }
 
             GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
-            Destroy(impactGO, 2f);
+            Destroy(impactGO, 5f);
         }
     }
 

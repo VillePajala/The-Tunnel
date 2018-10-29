@@ -6,7 +6,7 @@ public class BulletController : MonoBehaviour {
 
     // Defining public gameobjects to drag from editor
     // public GameObject bullet = null;
-    public GameObject explosion = null;
+    public ParticleSystem explosion = null;
 
     // Variable for adding force on impact
     public float force = 100f;
@@ -34,9 +34,9 @@ public class BulletController : MonoBehaviour {
             // calling a method for another sound after delay
             Invoke("PlayShellSound", 1f);
             // Creating a new explosion from prefab
-            GameObject exp = Instantiate(this.explosion, this.GetComponent<Transform>().position, Quaternion.identity);
+            explosion.Play();
             // Explosion destroyed after delay
-            Destroy(exp, 5f);
+            // Destroy(exp, 5f);
             // Creating a new bullet from prefab
             // GameObject ammo = Instantiate(this.bullet, this.GetComponent<Transform>().position, Quaternion.identity);
             // Bullet is given a name
