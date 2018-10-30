@@ -18,7 +18,10 @@ public class BulletController : MonoBehaviour {
 
     public float damage = 10f;
     public float range = 100f;
+    public float fireRate = 15f;
     public float force = 30f;
+
+    private float nextTimeToFire = 0f;
 
     public Camera fpsCam;
 
@@ -34,8 +37,9 @@ public class BulletController : MonoBehaviour {
 	void Update () {
 		
         // If left mouse button is pressed AND game is not paused
-        if (Input.GetButtonUp("Fire1") && PauseGame.GameIsPaused == false)
+        if (Input.GetButton("Fire1") && PauseGame.GameIsPaused == false && Time.time >= nextTimeToFire)
         {
+            nextTimeToFire = Time.time + 1f / fireRate;
             // sound of gunshot is played
             this.sounds[2].Play();
             // calling a method for another sound after delay

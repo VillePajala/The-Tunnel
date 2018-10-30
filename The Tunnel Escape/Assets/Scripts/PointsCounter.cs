@@ -24,11 +24,11 @@ public class PointsCounter : MonoBehaviour {
 	void Update () {
 
         // Current score is printed to UI
-        this.collected.GetComponent<TMP_Text>().text = "Spheres collected " + score + "/30";
+        this.collected.GetComponent<TMP_Text>().text = "Spheres collected " + score + "/20";
 
 
         // If player gets enopugh points
-        if(score == 30)
+        if(score == 20)
         {
             // animated UI image is enabled
             endscreen.gameObject.SetActive(true);
