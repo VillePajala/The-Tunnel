@@ -1,16 +1,16 @@
 ﻿
 using UnityEngine;
 
+
+// CODE NOT IN USE BUT SAVED FOR NOTES!
+
 public class GunScript : MonoBehaviour {
 
-    // Defining public gameobjects to drag from editor
+    // Defining variables
     
     public GameObject explosion = null;
 
     public GameObject impactEffect;
-
-    // Variable for adding force on impact
-    // public float force = 100f;
 
     // Soundsource
     private AudioSource[] sounds = null;
@@ -22,21 +22,24 @@ public class GunScript : MonoBehaviour {
     public Camera fpsCam;
 
 
-	// Use this for initialization
+	
 	void Start () {
 
         // Finding gameobjects
         this.sounds = GameObject.Find("AudioController").GetComponents<AudioSource>();
 
-    }
+    } // start
 	
-	// Update is called once per frame
+	
 	void Update () {
 
+        // If left mouse button is pressed 
         if (Input.GetButtonDown("Fire1") && PauseGame.GameIsPaused == false)
         {
+
             Shoot();
-        }
+
+        } // if
 
 
     } // Update
