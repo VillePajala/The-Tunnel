@@ -1,6 +1,6 @@
 ![](The%20Tunnel%20Escape/Assets/images/The_tunnel_header.png)
-# The-Tunnel
-A 3D FPS adventure in a underground tunnel
+# The Tunnel
+The Tunnel is a 3D FPS shootere in a underground tunnel where the goal of the player is to collect a certain amount of spheres. This short game was the final assignment in my game developement course. The game will be developed further in the future but by the mean time, you can play download and play the game here: https://villepajala.itch.io/the-tunnel
 
 Screenshots:
 
