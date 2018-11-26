@@ -2,7 +2,7 @@
 # The Tunnel
 The Tunnel is a 3D FPS shootere in a underground tunnel where the goal of the player is to collect a certain amount of spheres. This short game was the final assignment in my game developement course. In The Tunnel I was mostly concentrating on:
 
-* Making the 3D model of the game world complitely inside Unity
+* Making the 3D model of the game world completely inside Unity
 * How to make lively and complicated lighting
 * Creating particle systems (explosions, muzzle blasts, smoke etc.)
 * Visual post processing
