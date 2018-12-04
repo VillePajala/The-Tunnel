@@ -14,6 +14,10 @@ You can play download and play the game here: https://villepajala.itch.io/the-tu
 
 If you want to go straight to see the code, click [HERE.](The%20Tunnel%20Escape/Assets/Scripts)
 
+Game play demo on youtube:
+
+[![The tunnel](https://img.youtube.com/vi/zJPK_2dke8A/0.jpg)](https://www.youtube.com/watch?v=zJPK_2dke8A)
+
 
 Screenshots:
 
