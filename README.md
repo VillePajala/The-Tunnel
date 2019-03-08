@@ -19,6 +19,12 @@ You can play download and play the game here: https://villepajala.itch.io/the-tu
 
 If you want to go straight to see the code, click [HERE.](The%20Tunnel%20Escape/Assets/Scripts)
 
+## Tech Used
+
+* Unity 3D
+* ProBuilder
+* C#
+
 ## Gameplay demo
 
 Game play demo on youtube:
