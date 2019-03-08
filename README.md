@@ -25,7 +25,7 @@ Game play demo on youtube:
 
 [![The tunnel](https://img.youtube.com/vi/zJPK_2dke8A/0.jpg)](https://www.youtube.com/watch?v=zJPK_2dke8A)
 
-Video of the level design
+Video of the level design:
 
 [![The tunnel](https://img.youtube.com/vi/MSvFKWTAOIo/0.jpg)](https://www.youtube.com/embed/MSvFKWTAOIo)
 
