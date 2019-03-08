@@ -20,8 +20,7 @@ public class PointsCounter : MonoBehaviour {
 	void Update () {
         this.collected.GetComponent<TMP_Text>().text = "Spheres collected " + score + "/20";
 
-        if(score == 20)
-        {
+        if(score == 20) {
             endscreen.gameObject.SetActive(true);
             Invoke("EndMenu", 2.5f);
         } 

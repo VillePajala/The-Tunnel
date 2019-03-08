@@ -15,8 +15,7 @@ public class GetScore : MonoBehaviour {
 	}
 
     private void OnCollisionEnter(Collision collision) {  
-        if (collision.gameObject.name == "Player2")
-        {
+        if (collision.gameObject.name == "Player2") {
             this.send.GetComponent<PointsCounter>().score += 0.5f;
             Destroy(gameObject);
         } 

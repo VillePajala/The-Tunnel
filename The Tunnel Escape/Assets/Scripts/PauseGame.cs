@@ -21,13 +21,10 @@ public class PauseGame : MonoBehaviour {
 
     
     void Update () {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            if (GameIsPaused)
-            {
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            if (GameIsPaused) {
                 Resume();
-            } else
-            {
+            } else {
                 Pause();
             } 
         } 

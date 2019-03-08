@@ -27,16 +27,14 @@ public class GunScript : MonoBehaviour {
     void Shoot() {
         RaycastHit hit;
 
-        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
-        {
+        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range)) {
             TargetScript target = hit.transform.GetComponent<TargetScript>();
-            if(target != null)
-            {
+
+            if(target != null) {
                 target.TakeDamage(damage);
             }
 
-            if(hit.rigidbody != null)
-            {
+            if(hit.rigidbody != null) {
                 hit.rigidbody.AddForce(-hit.normal * force);
             }
 
