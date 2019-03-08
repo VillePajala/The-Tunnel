@@ -21,10 +21,13 @@ If you want to go straight to see the code, click [HERE.](The%20Tunnel%20Escape/
 
 ## Gameplay demo
 
-
 Game play demo on youtube:
 
 [![The tunnel](https://img.youtube.com/vi/zJPK_2dke8A/0.jpg)](https://www.youtube.com/watch?v=zJPK_2dke8A)
+
+Video of the level design
+
+[![The tunnel](https://img.youtube.com/embed/MSvFKWTAOIo/0.jpg)](https://www.youtube.com/embed/MSvFKWTAOIo)
 
 
 ## Screenshots:
